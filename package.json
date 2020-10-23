@@ -1,0 +1,16 @@
+{
+  "name": "javascript-verification-inputs",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel index.html",
+    "build-prod": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.3"
+  }
+}
